@@ -1,0 +1,18 @@
+body {
+    background-image: url(img/background.png);
+}
+#container{
+    margin: 0 auto;
+    width: 545px;
+    border: 2px solid grey;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+#innercontainer{
+    width: 510px;
+    border: 2px solid black;
+    padding: 20px;
+}

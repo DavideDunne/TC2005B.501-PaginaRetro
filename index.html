@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi pagina retro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".site-info").click(function(){
+          $(this).hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="innercontainer">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Pagina retro</a>
+            </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="https://experiencia21.tec.mx/">Canvas</a></li>
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+          </ul>
+          </div>
+        </nav>
+        <div id="content">
+          <p>Da click en cada parrafo para hacerlo invisible</p>
+          <p class="site-info">Hecho por Davide Dunne Sanchez <a href="mailto:A01642355@tec.mx">A01642355</a></p>
+          <p class="site-info">Profe: César Alfredo Espinosa Michel</p>
+          <p class="site-info">TC2005B.501</p>
+          <img src="img/konqi.png" style="display:block;">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
